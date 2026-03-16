@@ -15,10 +15,11 @@ The project combines a **modern React frontend** with **Python data analysis scr
 
 # ✨ Features
 
-🐶 View pet products
-🐱 Browse product details
-🛒 Add items to a shopping cart
-🎨 Responsive design
+* 🐶 View pet products
+* 🐱 Browse product details
+* 🛒 Add items to a shopping cart
+* 🎨 Responsive design
+  
 
 ---
 
