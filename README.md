@@ -15,8 +15,10 @@ The project combines a **modern React frontend** with **Python data analysis scr
 
 # ✨ Features
 
-* 🐾 Manage pet shop inventory
-* 📊 Analyze sales and pet data
+🐶 View pet products
+🐱 Browse product details
+🛒 Add items to a shopping cart
+🎨 Responsive design
 
 ---
 
