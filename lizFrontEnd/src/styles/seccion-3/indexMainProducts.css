@@ -1,0 +1,346 @@
+/* Main product container styling */
+
+
+
+h1{
+    text-align: center; /* Center the text */
+    font-size: 2.5rem; /* Increase font size */
+    font-weight: 700; /* Make the font bolder */
+    text-shadow: 0px 4px 4px #0DADB2; /* Keep the text shadow */
+    font-family: Kodchasan; /* Keep your font */
+    text-transform: capitalize; /* Capitalize text */
+    margin-top: 4rem; /* Top margin */
+    margin-bottom: 4.5rem; /* Bottom margin */
+    background: linear-gradient(90deg, #07A4A9, #FFB70D); /* Add a gradient background */
+    width: 90%;
+    margin-left: 4rem;
+    color: white; /* Change text color for contrast */
+    padding: 1rem; /* Add padding */
+    border-radius: 10px; /* Round the corners */
+    border-bottom: 4px solid #FFB70D; /* Optional underline */
+    transition: background 0.3s; /* Smooth background transition */
+    background: linear-gradient(90deg, #FFB70D, #07A4A9); /* Reverse gradient on hover */
+}
+
+.span-number
+{
+    font-size: 1.5em;  /* Increase font size */
+    font-weight: bold; /* Optional for added emphasis */
+}
+
+.columnaProductos {
+  
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+    gap: 5rem;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    background-color: rgb(245,239,215);
+    border-top-left-radius: 10px; /* Adjust the radius as needed */
+    border-bottom-left-radius: 10px;
+    box-shadow:  5px 5px 20px #000000; /* Adjust values as needed */
+    border-radius: 1.0rem;
+}
+
+.product-item:last-child
+{
+    margin-bottom: 10rem;
+}
+
+.product-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 5rem;
+}
+
+.quantity-selector
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quantity-selector button
+{
+    padding: 0.1rem 0.1rem; /* Increase padding for a larger button */
+    font-size: 1.5rem; /* Larger font size */
+    font-family: Kodchasan; /* Keep your font */
+    color: #fff; /* White text */
+    background-color: rgb(36, 35, 35);
+    border: none; /* Remove default border */
+    border-radius:50%; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+
+.imgProductoHuesoColores
+{
+    width: 11rem;
+
+}
+
+
+.imgProductoHuesoColores:hover {
+    transform: scale(1.3); /* Scale up on hover */
+}
+
+
+.cart-item-info-huesos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 219 ,238);
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 15rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cart-item-info-huesos-colores
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cart-item-info-huesos-colores h3 
+{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.art-item-info-huesos-colores-texto {
+    font-size: 1.3rem;
+    color: #666;
+    text-align: initial !important;
+    margin: initial !important;
+}
+
+.product-quantity {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.add-to-cart   {
+    padding: 1rem 1rem; /* Increase padding for a larger button */
+    font-size: 1.5rem; /* Larger font size */
+    font-family: Kodchasan; /* Keep your font */
+    color: #fff; /* White text */
+    background-color: rgb(36, 35, 35);
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+
+.add-to-cart:hover {
+    background-color: #FFB70D; /* Change background on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+
+
+
+
+
+/* Cart Icon Styling
+.floating-cart 
+{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+
+.floating-cart .cart-count 
+{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.cart-icon 
+{
+    font-size: 30px; 
+    text-decoration: none; 
+    color: black; 
+    background-color: #f8f9fa;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-icon:hover 
+{
+    transform: scale(1.2); 
+}
+
+
+.virtualListCart 
+{
+    visibility: hidden; 
+    position: fixed;
+    background-color: white; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 18.75rem; 
+    top: 4.75rem;
+    right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+    cursor: pointer;
+   
+}
+
+.virtualListCart.show {
+    visibility: visible; 
+    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.virtualListCart ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.virtualListCart li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.virtualListCart li:last-child {
+    border-bottom: none;
+}
+
+.virtualListCart .product-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.virtualListCart .product-details {
+    display: flex;
+    align-items: center;
+}
+
+.virtualListCart .product-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.virtualListCart .product-price {
+    font-size: 12px;
+    color: gray;
+}
+
+.virtualListCart .product-quantity {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.virtualListCart 
+{
+    max-height: 300px; 
+    overflow-y: auto;  
+}
+    */
+
+
+/********************************************/
+/********************************************/
+
+.floating-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+
+  }
+
+  
+  .cart-icon {
+    font-size: 30px;
+    background-color: #ffffff;
+    color: rgb(32, 30, 30);
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cart-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-count {
+    position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 5px 10px;
+  }
+  
+  .cart-empty {
+    font-size: 12px;
+    color: #000000;
+    margin-left: 5px;
+  }
+  
+

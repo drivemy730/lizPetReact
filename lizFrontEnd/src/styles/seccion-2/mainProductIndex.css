@@ -1,0 +1,195 @@
+
+
+.groomingSectionVideosAndTitleContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    background-color: rgb(245,239,215);
+    box-shadow:  5px 5px 20px #000000; /* Adjust values as needed */
+    border-radius: 1.0rem;
+    height: 50rem;
+
+}
+
+
+.groomingSectionVideosTitleContainer
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    font-family: Kodchasan; 
+
+}
+
+.groomingSectionVideosTitleContainer p
+{
+    font-size: 1.6rem;
+    font-family: Kodchasan; 
+    text-align: center;
+    color: #2D3342;
+    font-weight: 600;
+}
+
+
+.groomingSectionVideosContainer 
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+    align-items: flex-start; /* Align items at the start */
+    margin-top: 0%;
+    gap: 5rem;
+   
+    
+}
+
+.groomingSectionVideosCompetencia
+{
+    width: 300px; /* Fixed width for each container */
+    height: 300px; /* Fixed height for each container */
+    border-top-left-radius: 1rem; /* Rounded corners */
+    border-top-right-radius: 1rem; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for content */
+    padding: 1rem;
+    background-color: rgba(172,219,238,255);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+
+
+
+
+
+.slideCompetencia  {
+    display: none; /* Hide slides by default */
+}
+
+
+
+
+.slideCompetencia  img 
+{
+    width:100%; /* Full width for images */
+    height:100%;/* Maintain aspect ratio */
+    border-top-right-radius: 1rem; /* Rounded corners */
+    border-top-left-radius: 1rem; /* Rounded corners */
+}
+
+
+.groomingSectionVideosCommentsCompetencia
+{
+    width: 20rem; 
+    background-color: rgb(172, 219 ,238);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+    box-shadow:  5px 5px 20px #000000; /* Adjust values as needed */
+}
+
+.groomingSectionVideosCommentsCompetencia, .groomingSectionVideosCommentsVideo
+{
+    display: flex; /* Align items horizontally */
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+}
+
+.groomingSectionVideosCommentsCompetencia p, .groomingSectionVideosCommentsVideo p
+{
+    font-size: 1.2rem;
+    font-family: Kodchasan; 
+    text-align: center;
+    color: #2D3342;
+    font-weight: 600;
+
+    font-size: 1.5rem; /* Slightly larger font size */
+    display: flex; /* Align items horizontally */
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+}
+
+
+
+.groomingSectionVideosClips
+{
+    width: 300px; /* Fixed width for each container */
+    height: 300px; /* Fixed height for each container */
+    border-top-left-radius: 1rem; /* Rounded corners */
+    border-top-right-radius: 1rem; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for content */
+    padding: 1rem;
+    background-color: rgba(172,219,238,255);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+
+.groomingSectionVideosClips video {
+    width: 100%;  /* La imagen debe ocupar todo el ancho */
+    height: 100%;  /* La imagen debe ocupar toda la altura */
+    object-fit: cover;  /* Para que la imagen cubra todo el área sin deformarse */
+    border-top-right-radius: 1rem; /* Esquinas redondeadas */
+    border-top-left-radius: 1rem; /* Esquinas redondeadas */
+}
+
+
+.groomingSectionVideosCompetencia,
+.groomingSectionVideosClips,
+.groomingSectionVideosCustomer {
+    width: 300px; /* Fixed width for each container */
+    height: 300px; /* Fixed height for each container */
+    border-top-left-radius: 1rem; /* Rounded corners */
+    border-top-right-radius: 1rem; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for content */
+    padding: 1rem;
+    background-color: rgba(172,219,238,255);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+}
+
+
+.groomingSectionVideosCustomer img {
+    width: 100%;  /* La imagen debe ocupar todo el ancho */
+    height: 100%;  /* La imagen debe ocupar toda la altura */
+    object-fit: cover;  /* Para que la imagen cubra todo el área sin deformarse */
+    border-top-right-radius: 1rem; /* Esquinas redondeadas */
+    border-top-left-radius: 1rem; /* Esquinas redondeadas */
+}
+
+
+
+
+.groomingSectionVideosCommentsCompetencia, .groomingSectionVideosCommentsVideo, .groomingSectionVideosCommentsCustomer
+{
+    width: 20rem; 
+    background-color: rgb(172, 219 ,238);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+    box-shadow:  5px 5px 20px #000000; /* Adjust values as needed */
+
+    display: flex; /* Align items horizontally */
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+
+}
+
+
+.groomingSectionVideosCommentsCompetencia p, 
+.groomingSectionVideosCommentsVideo p, 
+.groomingSectionVideosCommentsCustomer p
+{
+    font-size: 1.2rem;
+    font-family: Kodchasan; 
+    text-align: center;
+    color: #2D3342;
+    font-weight: 600;
+    display: flex; /* Align items horizontally */
+    justify-content: center;
+
+
+    
+}

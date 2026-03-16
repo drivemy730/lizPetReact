@@ -1,0 +1,82 @@
+/* rbg(94,200,174) */
+
+
+.gradient-header
+ {
+    background:rgba(172,219,238,255);
+    width:110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0; /* Add padding for better spacing */
+    font-size: 1.5rem;
+    font-family: Kodchasan; 
+    text-align: center;
+    color: #2D3342;
+    font-weight: 600;
+}
+
+/* Logo Container */
+.header_logo_container
+{
+    display: flex;
+    width: 240px;
+}
+
+/* Logo Image */
+.header_logo_img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* Smooth scaling */
+    box-shadow: none; /* Remove box-shadow if it's applied by default */
+}
+
+.header_logo_img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    box-shadow: none; /* Remove any shadow when hovering */
+    outline: none; /* Remove outline on hover */
+}
+
+/* Navigation Container */
+.header_nav_container {
+    display: flex;
+}
+
+/* Navigation Links */
+
+.loginButton {
+    position: absolute; /* Position it at the top-right */
+    right: 20px;
+    top: 20px;
+    font-size: 0.7rem; /* Adjust font size for the login button */
+}
+
+
+.header_nav_container_footer .navButton:hover {
+    color: #FFB70D; /* Stronger, darker blue for better contrast */
+    font-weight: bold; /* Make the text bold on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+
+
+/* Responsive Design */
+@media(max-width:769px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_nav_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.06rem;
+    }
+}
+
+/* Keyframes for Background Animation */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
